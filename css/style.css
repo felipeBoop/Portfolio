@@ -1,0 +1,41 @@
+#main_section{
+    height: calc(100vh);
+    background-color: rgb(31 30 32);
+}
+
+#projects_session{
+    height: calc(100vh);
+    /* background-color: rgb(238, 232, 244); */
+    background-color: #eeeeee
+}
+
+.welcome_text{
+    color: rgb(217, 211, 218);
+    font-size: 40px;
+}
+
+.centralizado{
+    position: absolute;
+    text-align: center;
+    /* padding-top: 50vh; */
+    -ms-transform: translateY(50vh);
+    transform: translateY(50vh);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.particles-js-canvas-el{
+    z-index: 0; 
+}
+
+.border{
+    border: solid 3px #eeeeee;
+    color: white
+}
+
+.card-content.b-height-text{
+    height: 320px;
+}

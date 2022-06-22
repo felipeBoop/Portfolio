@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    z-index: 30;
+}
+
+/*LINKS AREA*/
+a:link {
+    color: black;
+}
+  
+a:visited {
+color: black
+}
+
+a:hover {
+font-size: 18px;
+}
+
+a:active {
+color: black;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #1f1e20;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background-color: rgb(60, 60, 60);
+}
